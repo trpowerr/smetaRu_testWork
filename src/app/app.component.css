@@ -47,7 +47,7 @@ header {
   margin-right: 12px;
 }
 .login:hover {
-  background-color: #33ff66;
+  background-color: #ff6666;
   border: #fff solid 2px;
   color: #fff;
 }
@@ -65,8 +65,8 @@ header {
   border: none;
 }
 .registration:hover {
-  background-color: #fff;
-  color: #33ff66;
+  background-color:#ff6666;
+  color: #fff;
   border: #fff solid 2px;
 }
 .registration:active{
