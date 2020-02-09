@@ -11,7 +11,7 @@ header {
   justify-content: space-between;
 }
 .header_logo{
-  margin-left: 21px;
+  margin-left: 22px;
   margin-right: auto;
   margin-top: 12px;
 }
@@ -23,7 +23,7 @@ header {
 }
  .header_nav a{
    font-size: 18px;
-   padding-right: 30px;
+   padding-right: 18px;
    color: #fff;
  }
  .header_nav a:hover{
@@ -80,7 +80,7 @@ main {
   text-align: center;
 }
 .main_header {
-  margin: 110px 250px 80px;
+  margin: 100px 250px 80px;
 }
 .main_header h1{
   font-size: 35px;
@@ -88,7 +88,7 @@ main {
   color: #fff;
 }
 .bts_main button {
-  height: 65px;
+  height: 60px;
   width: 365px;
   font-size: 22px;
   color: #fff;
@@ -116,7 +116,7 @@ footer a:active {
   color: #fff;
 }
 .footer_nav {
-  margin-top: 17px;
+  margin-top: 13px;
   margin-left: 20px;
   margin-right: auto;
 }
@@ -132,6 +132,7 @@ footer a:active {
 .visa {
   width: 52px;
   margin-right: 10px;
+  padding-left: 194px;
 }
 .unit {
   width: 52px;
@@ -149,6 +150,14 @@ footer a:active {
 .footer_nav_right_site span{
   color: #fff;
   padding-right: 13px;
+}
+
+
+
+@media (min-width: 1146px) and (max-width: 1380px) {
+  .visa {
+    padding-left: 0px;
+  }
 }
 
 @media (min-width: 1000px) and (max-width: 1145px){
@@ -180,6 +189,9 @@ footer a:active {
   .footer_nav a {
     font-size: 10px;
     padding-right: 13px;
+  }
+  .visa {
+    padding-left: 0px;
   }
   .footer_nav_right_site a{
     font-size: 10px;
