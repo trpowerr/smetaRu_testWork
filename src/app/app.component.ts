@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'smetaRu';
+
+  toPress:boolean = true;
+
+  goLink() {
+    this.toPress = !this.toPress;
+    if (this.toPress == true) {
+      console.log('Button off...');
+    } else {
+      console.log('Button on!');
+    }
+  }
 }

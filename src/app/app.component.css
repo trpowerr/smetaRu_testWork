@@ -1,0 +1,191 @@
+.container {
+  width: 100%;
+  max-width: 1391px;
+  background-size: cover;
+  background-image: url(../assets/img/bg.png);
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+}
+.header_logo{
+  margin-left: 21px;
+  margin-right: auto;
+  margin-top: 12px;
+}
+.header_logo img {
+  width: 262px;
+}
+.header_nav{
+  padding-top:  47px;
+}
+ .header_nav a{
+   font-size: 18px;
+   padding-right: 30px;
+   color: #fff;
+ }
+ .header_nav a:hover{
+   color: #33ff66;
+ }
+.header_nav a:active{
+  color: #fff;
+}
+.bts_header {
+  margin-left: auto;
+  margin-right: 24px;
+  margin-top: 31px;
+}
+.login {
+  width: 90px;
+  height: 50px;
+  background-color: #ffffff;
+  border: #33ff66 solid 2px;
+  color: #33ff66;
+  font-size: 18px;
+  margin-right: 12px;
+}
+.login:hover {
+  background-color: #33ff66;
+  border: #fff solid 2px;
+  color: #fff;
+}
+.login:active{
+  background-color: #ffffff;
+  border: #33ff66 solid 2px;
+  color: #33ff66;
+}
+.registration {
+  width: 150px;
+  height: 50px;
+  background-color: #33ff66;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+}
+.registration:hover {
+  background-color: #fff;
+  color: #33ff66;
+  border: #fff solid 2px;
+}
+.registration:active{
+  background-color: #33ff66;
+  color: #fff;
+  border: none;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.main_header {
+  margin: 110px 250px 80px;
+}
+.main_header h1{
+  font-size: 35px;
+  font-weight: normal;
+  color: #fff;
+}
+.bts_main button {
+  height: 65px;
+  width: 365px;
+  font-size: 22px;
+  color: #fff;
+  background-color: #ff6666;
+  border: #fff solid 2px;
+  margin-bottom: 647px;
+}
+.bts_main button:hover {
+  color: #fff;
+  background-color: #ff3333;
+  border: #fff solid 2px;
+}
+.bts_main button:active{
+  color: #ff3333;
+  background-color: #fff;
+  border: #ff3333 solid 2px;
+}
+footer {
+  display: flex;
+}
+footer a:hover {
+  color: #33ff66;
+}
+footer a:active {
+  color: #fff;
+}
+.footer_nav {
+  margin-top: 17px;
+  margin-left: 20px;
+  margin-right: auto;
+}
+.footer_nav a {
+  font-size: 14px;
+  color: #fff;
+  padding-right: 13px;
+}
+.footer_logo {
+  display: flex;
+  margin-bottom: 10px;
+}
+.visa {
+  width: 52px;
+  margin-right: 10px;
+}
+.unit {
+  width: 52px;
+}
+.footer_nav_right_site {
+  margin-top: 17px;
+  margin-right: 85px;
+  margin-left: auto;
+}
+.footer_nav_right_site a{
+  font-size: 14px;
+  color: #fff;
+  padding-right: 13px;
+}
+.footer_nav_right_site span{
+  color: #fff;
+  padding-right: 13px;
+}
+
+@media (min-width: 1000px) and (max-width: 1145px){
+  .header_nav a{
+    font-size: 14px;
+    padding-right: 20px;
+    color: #fff;
+  }
+  .login {
+    width: 80px;
+    font-size: 14px;
+    margin-right: 12px;
+  }
+  .registration {
+    width: 140px;
+    font-size: 14px;
+  }
+  .main_header {
+    margin: 110px 240px 80px;
+  }
+  .main_header h1{
+    font-size: 31px;
+  }
+  .bts_main button {
+    width: 355px;
+    font-size: 18px;
+    margin-bottom: 647px;
+  }
+  .footer_nav a {
+    font-size: 10px;
+    padding-right: 13px;
+  }
+  .footer_nav_right_site a{
+    font-size: 10px;
+    padding-right: 13px;
+  }
+
+}
+
+
